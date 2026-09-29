@@ -1,0 +1,78 @@
+name: 权利投诉与下架请求
+description: 请求删除、替换或修正可能侵犯合法权益的内容
+title: "[下架请求] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你帮助维护合法、准确的资源目录。Issue 内容公开可见；身份证件、授权文件等敏感材料请发送至 lxinghe52@gmail.com，不要在此公开。
+
+  - type: dropdown
+    id: claimant_role
+    attributes:
+      label: 申请人身份
+      options:
+        - 权利人
+        - 权利人的授权代理人
+        - 其他利害关系人
+    validations:
+      required: true
+
+  - type: textarea
+    id: affected_content
+    attributes:
+      label: 涉及内容
+      description: 请提供仓库中的准确文件路径或链接，每行一项。
+      placeholder: |
+        四级真题/YYYY.MM/答案解析/example.pdf
+    validations:
+      required: true
+
+  - type: textarea
+    id: rights_basis
+    attributes:
+      label: 权利依据
+      description: 请简要说明权利归属、授权关系或其他合法权益。敏感证明材料请通过邮件发送。
+    validations:
+      required: true
+
+  - type: input
+    id: original_source
+    attributes:
+      label: 原始发布来源
+      description: 如有，请提供官方网站、出版页面或其他可核验链接。
+      placeholder: https://example.com/original-source
+
+  - type: dropdown
+    id: requested_action
+    attributes:
+      label: 请求措施
+      options:
+        - 删除相关文件
+        - 移除相关链接
+        - 补充或更正来源说明
+        - 其他（请在补充说明中说明）
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 补充说明
+      description: 可补充处理范围、紧急程度或邮件主题，便于核验。
+
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式
+      description: 可填写 GitHub 用户名或适合公开的联系邮箱。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: declaration
+    attributes:
+      label: 声明
+      options:
+        - label: 我确认以上信息真实、准确，并有权提出本请求。
+          required: true
