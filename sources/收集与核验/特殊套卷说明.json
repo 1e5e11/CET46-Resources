@@ -1,0 +1,488 @@
+[
+  {
+    "session": "2020.09",
+    "level": "cet4",
+    "set": 2,
+    "source_local_path": "四级真题/2020.09/真题PDF/cet4_2020_09_2.pdf",
+    "source_url": "https://www.cettong.cn/library/cet4/2020_09_2",
+    "source_download_url": "https://www.cettong.cn/library/cet4/2020_09_2/test.pdf",
+    "source_sha256": "0e42abec89ed747fad90ebe48da85859d92116eae513bd81175f1f4a00eb3cbc",
+    "source_pages": [
+      1
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "第2套保留独立写作、阅读和翻译。第一页 Part II 说明当场只有一套听力，与第1套听力内容相同，选项顺序不同，因此不重印听力题。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Reading",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "同内容；选项顺序未在第2套重印"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": true,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2020.09",
+    "level": "cet4",
+    "set": 3,
+    "source_local_path": "四级真题/2020.09/真题PDF/cet4_2020_09_3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet4/2020_09_3",
+    "source_download_url": "https://www.cettong.cn/library/cet4/2020_09_3/test.pdf",
+    "source_sha256": "0e770aec09b6fb7adda8cb709e20b8e3bda20da83b6f0ea6f4e188b221ed06f6",
+    "source_pages": [
+      1,
+      2,
+      3
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "第3套文件为写作和翻译题及讲解的补充卷。第一页顶部明确其余题目与第2套相同，故不重复。阅读配第2套；听力经第2套说明配第1套。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Reading",
+        "source_set": 2,
+        "relation": "源文件明确完全相同"
+      },
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "via_set": 2,
+        "relation": "第3套共享第2套听力；第2套听力共享第1套内容"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": true,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2020.09",
+    "level": "cet6",
+    "set": 2,
+    "source_local_path": "六级真题/2020.09/真题PDF/cet6_2020_09_2.pdf",
+    "source_url": "https://www.cettong.cn/library/cet6/2020_09_2",
+    "source_download_url": "https://www.cettong.cn/library/cet6/2020_09_2/test.pdf",
+    "source_sha256": "53695a81d184bf81fd9724300c59b98d1f787f09ce3eb86a5d0e792305ede82a",
+    "source_pages": [
+      1
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "第2套保留独立写作、阅读和翻译。第一页 Part II 说明当场只有一套听力，与第1套听力内容相同，选项顺序不同，因此不重印听力题。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Reading",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "同内容；选项顺序未在第2套重印"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": true,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2020.09",
+    "level": "cet6",
+    "set": 3,
+    "source_local_path": "六级真题/2020.09/真题PDF/cet6_2020_09_3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet6/2020_09_3",
+    "source_download_url": "https://www.cettong.cn/library/cet6/2020_09_3/test.pdf",
+    "source_sha256": "f00458ac98ad86255558872bd6ef71b31b862528ab7912193174c685ea33721f",
+    "source_pages": [
+      1,
+      2,
+      3
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "第3套文件为写作和翻译题及讲解的补充卷。第一页顶部明确其余题目与第2套相同，故不重复。阅读配第2套；听力经第2套说明配第1套。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Reading",
+        "source_set": 2,
+        "relation": "源文件明确完全相同"
+      },
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "via_set": 2,
+        "relation": "第3套共享第2套听力；第2套听力共享第1套内容"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": true,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2022.09",
+    "level": "cet4",
+    "set": 2,
+    "source_local_path": "四级真题/2022.09/真题PDF/cet4_2022_09_2-3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet4/2022_09_2-3",
+    "source_download_url": "https://www.cettong.cn/library/cet4/2022_09_2-3/test.pdf",
+    "source_sha256": "bc05bf8999d7b68f1a7f148934e1a9ed6c4e0bd8b45a6ba26e14b2d7e8ecea74",
+    "source_pages": [
+      1
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "2-3 合卷共两页，每页分别列出第2套或第3套写作、翻译。源文件说明当场只有一套听力和一套阅读，三篇写作及三篇翻译；共享题段使用第1套。六级红字说明还明确与第1套相同。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "当场仅一套听力"
+      },
+      {
+        "section": "Reading",
+        "source_set": 1,
+        "relation": "当场仅一套阅读"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": false,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2022.09",
+    "level": "cet4",
+    "set": 3,
+    "source_local_path": "四级真题/2022.09/真题PDF/cet4_2022_09_2-3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet4/2022_09_2-3",
+    "source_download_url": "https://www.cettong.cn/library/cet4/2022_09_2-3/test.pdf",
+    "source_sha256": "bc05bf8999d7b68f1a7f148934e1a9ed6c4e0bd8b45a6ba26e14b2d7e8ecea74",
+    "source_pages": [
+      2
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "2-3 合卷共两页，每页分别列出第2套或第3套写作、翻译。源文件说明当场只有一套听力和一套阅读，三篇写作及三篇翻译；共享题段使用第1套。六级红字说明还明确与第1套相同。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "当场仅一套听力"
+      },
+      {
+        "section": "Reading",
+        "source_set": 1,
+        "relation": "当场仅一套阅读"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": false,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2022.09",
+    "level": "cet6",
+    "set": 2,
+    "source_local_path": "六级真题/2022.09/真题PDF/cet6_2022_09_2-3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet6/2022_09_2-3",
+    "source_download_url": "https://www.cettong.cn/library/cet6/2022_09_2-3/test.pdf",
+    "source_sha256": "1d7f456011fadb345feb1a75cf427b2b448bd0355eff924326f73983f14f28d8",
+    "source_pages": [
+      1
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "2-3 合卷共两页，每页分别列出第2套或第3套写作、翻译。源文件说明当场只有一套听力和一套阅读，三篇写作及三篇翻译；共享题段使用第1套。六级红字说明还明确与第1套相同。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "当场仅一套听力"
+      },
+      {
+        "section": "Reading",
+        "source_set": 1,
+        "relation": "当场仅一套阅读"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": false,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2022.09",
+    "level": "cet6",
+    "set": 3,
+    "source_local_path": "六级真题/2022.09/真题PDF/cet6_2022_09_2-3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet6/2022_09_2-3",
+    "source_download_url": "https://www.cettong.cn/library/cet6/2022_09_2-3/test.pdf",
+    "source_sha256": "1d7f456011fadb345feb1a75cf427b2b448bd0355eff924326f73983f14f28d8",
+    "source_pages": [
+      2
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "2-3 合卷共两页，每页分别列出第2套或第3套写作、翻译。源文件说明当场只有一套听力和一套阅读，三篇写作及三篇翻译；共享题段使用第1套。六级红字说明还明确与第1套相同。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "当场仅一套听力"
+      },
+      {
+        "section": "Reading",
+        "source_set": 1,
+        "relation": "当场仅一套阅读"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": false,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2023.03",
+    "level": "cet4",
+    "set": 2,
+    "source_local_path": "四级真题/2023.03/真题PDF/cet4_2023_03_2-3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet4/2023_03_2-3",
+    "source_download_url": "https://www.cettong.cn/library/cet4/2023_03_2-3/test.pdf",
+    "source_sha256": "0d695e4d6d568aadcaf9420fd1396107bf4fd05041b12423609dc37d3581a1d9",
+    "source_pages": [
+      1,
+      2
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "2-3 合卷共四页，每套包含一页写作/翻译题与一页参考答案。题页分别说明听力和阅读在当场均只有一套，与第1套内容相同，只是顺序不同，因此不再重印；答案页这两项标为 OMITTED。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "同内容；原套卷顺序未重印"
+      },
+      {
+        "section": "Reading",
+        "source_set": 1,
+        "relation": "同内容；原套卷顺序未重印"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": true,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2023.03",
+    "level": "cet4",
+    "set": 3,
+    "source_local_path": "四级真题/2023.03/真题PDF/cet4_2023_03_2-3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet4/2023_03_2-3",
+    "source_download_url": "https://www.cettong.cn/library/cet4/2023_03_2-3/test.pdf",
+    "source_sha256": "0d695e4d6d568aadcaf9420fd1396107bf4fd05041b12423609dc37d3581a1d9",
+    "source_pages": [
+      3,
+      4
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "2-3 合卷共四页，每套包含一页写作/翻译题与一页参考答案。题页分别说明听力和阅读在当场均只有一套，与第1套内容相同，只是顺序不同，因此不再重印；答案页这两项标为 OMITTED。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "同内容；原套卷顺序未重印"
+      },
+      {
+        "section": "Reading",
+        "source_set": 1,
+        "relation": "同内容；原套卷顺序未重印"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": true,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2023.03",
+    "level": "cet6",
+    "set": 2,
+    "source_local_path": "六级真题/2023.03/真题PDF/cet6_2023_03_2-3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet6/2023_03_2-3",
+    "source_download_url": "https://www.cettong.cn/library/cet6/2023_03_2-3/test.pdf",
+    "source_sha256": "2570952cd5781945f79b1e98a48266fb04f8ab815226d504941c14110683b8ea",
+    "source_pages": [
+      1,
+      2
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "2-3 合卷共四页，每套包含一页写作/翻译题与一页参考答案。题页分别说明听力和阅读在当场均只有一套，与第1套内容相同，只是顺序不同，因此不再重印；答案页这两项标为 OMITTED。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "同内容；原套卷顺序未重印"
+      },
+      {
+        "section": "Reading",
+        "source_set": 1,
+        "relation": "同内容；原套卷顺序未重印"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": true,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2023.03",
+    "level": "cet6",
+    "set": 3,
+    "source_local_path": "六级真题/2023.03/真题PDF/cet6_2023_03_2-3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet6/2023_03_2-3",
+    "source_download_url": "https://www.cettong.cn/library/cet6/2023_03_2-3/test.pdf",
+    "source_sha256": "2570952cd5781945f79b1e98a48266fb04f8ab815226d504941c14110683b8ea",
+    "source_pages": [
+      3,
+      4
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "2-3 合卷共四页，每套包含一页写作/翻译题与一页参考答案。题页分别说明听力和阅读在当场均只有一套，与第1套内容相同，只是顺序不同，因此不再重印；答案页这两项标为 OMITTED。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "同内容；原套卷顺序未重印"
+      },
+      {
+        "section": "Reading",
+        "source_set": 1,
+        "relation": "同内容；原套卷顺序未重印"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": true,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2022.06",
+    "level": "cet6",
+    "set": 2,
+    "source_local_path": "六级真题/2022.06/真题PDF/cet6_2022_06_2-3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet6/2022_06_2-3",
+    "source_download_url": "https://www.cettong.cn/library/cet6/2022_06_2-3/test.pdf",
+    "source_sha256": "adc7cae0dfb982a3dae2281e2f564f43d6e10459a35f8b8d53ee2605edf4e7ab",
+    "source_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "2-3 合卷前八页为第2套：第一页写作、共享听力说明及独立阅读，阅读延续至第7页，随后翻译，第8页参考答案。听力说明当场只有一套，配第1套听力内容；第2套阅读已经实际保留。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Reading",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "同内容；原套卷顺序未重印"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": true,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。"
+  },
+  {
+    "session": "2022.06",
+    "level": "cet6",
+    "set": 3,
+    "source_local_path": "六级真题/2022.06/真题PDF/cet6_2022_06_2-3.pdf",
+    "source_url": "https://www.cettong.cn/library/cet6/2022_06_2-3",
+    "source_download_url": "https://www.cettong.cn/library/cet6/2022_06_2-3/test.pdf",
+    "source_sha256": "adc7cae0dfb982a3dae2281e2f564f43d6e10459a35f8b8d53ee2605edf4e7ab",
+    "source_pages": [
+      9,
+      10
+    ],
+    "inspection_method": "pypdf text where available; PDFium rendered source pages and supplementary paper pages visually inspected",
+    "note": "2-3 合卷第9页为第3套写作和翻译，第10页为参考答案。第9页说明听力与第1套同内容、顺序不同；阅读说明当场只有两套阅读，其内容与前两套相同、顺序不同而省略。因此应保留第1套和第2套阅读作为共享题段，不能凭这份补充卷推造第3套完整排序。",
+    "contains_distinct_sections": [
+      "Writing",
+      "Translation"
+    ],
+    "shared_section_dependencies": [
+      {
+        "section": "Listening",
+        "source_set": 1,
+        "relation": "同内容；原套卷顺序未重印"
+      },
+      {
+        "section": "Reading",
+        "source_sets": [
+          1,
+          2
+        ],
+        "relation": "源文件称与前两套相同；两套阅读内容均已收录"
+      }
+    ],
+    "distinct_question_content_gap": false,
+    "exact_original_permutation_not_preserved": true,
+    "usage": "使用本文件的写作和翻译；省略部分按 shared_section_dependencies 中指定的同场次套卷使用。共享听力核对选项内容，不能直接套用其他卷的 A/B/C/D。",
+    "conclusion": "源文件明确说明省略共享部分，当前共享题段及新增写作/翻译均已存在；未发现额外独立题目内容缺口。",
+    "source_ambiguity": "原文用“前两套”概括共享阅读，并未给出第3套每个阅读题段分别对应第1套或第2套的具体组合，也未列原顺序；独立内容可用前两套覆盖，原样排列不能据此确认。"
+  }
+]
